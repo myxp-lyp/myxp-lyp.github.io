@@ -19,7 +19,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://myxp-lyp.github.io/">
     <!-- 如果你有照片，取消下面这行注释并替换路径 -->
-    <!-- <meta property="og:image" content="https://myxp-lyp.github.io/assets/photo.jpg"> -->
+    <meta property="og:image" content="https://myxp-lyp.github.io/YP.jpg">
 
     <!-- 让 Google Scholar 等学术搜索引擎更好识别 -->
     <link rel="canonical" href="https://myxp-lyp.github.io/">
@@ -157,6 +157,12 @@
             font-weight: 700;
             box-shadow: 0 4px 20px rgba(52,152,219,0.25);
             transition: transform var(--transition);
+        }
+        .hero-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
         }
         .hero-avatar:hover { transform: scale(1.05); }
         .hero-info h1 {
@@ -451,7 +457,7 @@
 
 <!-- ========== Hero ========== -->
 <div class="hero">
-    <div class="hero-avatar">YL</div>
+    <div class="hero-avatar"><img src="YP.jpg" alt="Yupei Li"></div>
     <div class="hero-info">
         <h1>Yupei Li</h1>
         <p class="tagline">PhD Student in Computing @ Imperial College London</p>
